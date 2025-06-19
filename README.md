@@ -31,7 +31,7 @@
 - [Angular 20](https://angular.io/)
 - HTML5 + CSS3
 - TypeScript
-- [Open Trivia DB API](https://opentdb.com/)
+- [Open Trivia DB API]([https://opentdb.com/](https://opentdb.com/api_config.php))
 - Angular CLI & GitHub Pages for deployment
 
 ---
