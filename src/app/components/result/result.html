@@ -1,0 +1,27 @@
+<div class="result-container">
+  <div class="result-box">
+    <h2 class="result-heading">🎉 Quiz Completed!</h2>
+    <p class="score-text">
+      You scored <strong class="animated-score">{{ score }}</strong> out of <strong>{{ total }}</strong>
+    </p>
+
+    <p class="feedback-text" [ngClass]="{
+      'excellent': score / total >= 0.8,
+      'good': score / total >= 0.5 && score / total < 0.8,
+      'try-again': score / total < 0.5
+    }">
+      {{
+        score / total >= 0.8
+          ? 'Excellent! 🏆'
+          : score / total >= 0.5
+          ? 'Good job!'
+          : 'Try again?'
+      }}
+    </p>
+
+    <div class="button-group">
+      <button class="btn glow" (click)="goHome()">Home</button>
+      <button class="btn glow" (click)="tryAgain()">Try Again</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,83 @@
+/* src/app/pages/quiz/quiz.component.css */
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.quiz-box {
+  background-color: #292854;
+  padding: 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.options button {
+  background-color: #1f1e3a;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.options button:hover {
+  background-color: #3c3a65;
+}
+
+.options button.selected {
+  background-color: #d9ff00;
+  color: #1c1b3a;
+}
+
+.next-btn {
+  background-color: #d9ff00;
+  color: #1c1b3a;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.next-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.loading-screen {
+  text-align: center;
+  padding: 80px;
+  font-size: 1.2rem;
+}
+
+/* initial fade-in for the quiz box */
+.quiz-box {
+  animation: fadeInQuiz 0.7s ease-out;
+}
+
+@keyframes fadeInQuiz {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
