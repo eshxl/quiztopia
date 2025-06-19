@@ -1,59 +1,50 @@
-# Quiztopia
+# 🎮 Quiztopia
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
+**Quiztopia** is a fun and interactive trivia quiz application built using **Angular v20**, designed as part of my frontend internship. It lets users choose a category, difficulty, and number of questions — and then tests their knowledge in a smooth, animated quiz interface.
 
-## Development server
+🌐 **Live Demo:**  
+👉 [https://eshxl.github.io/quiztopia/](https://eshxl.github.io/quiztopia/)
 
-To start a local development server, run:
+---
+
+## 📸 Screenshots
+
+| Home Page | Quiz Page | Result Page |
+|----------|-----------|-------------|
+| ![Home](https://github.com/eshxl/quiztopia/assets/preview-home.png) | ![Quiz](https://github.com/eshxl/quiztopia/assets/preview-quiz.png) | ![Result](https://github.com/eshxl/quiztopia/assets/preview-result.png) |
+
+---
+
+## ⚙️ Features
+
+- 🎯 Choose category, difficulty, and number of questions (1-20)
+- 🔄 Dynamic API integration with [Open Trivia DB](https://opentdb.com/)
+- ✨ Quiz UI with animations and result feedback
+- 📊 Tracks score with count-up animation
+- 🛑 Navigation guard prevents accidental reload or back during quiz
+- 📱 Fully responsive layout with clean UI
+
+---
+
+## 🚀 Technologies Used
+
+- [Angular 20](https://angular.io/)
+- HTML5 + CSS3
+- TypeScript
+- [Open Trivia DB API](https://opentdb.com/)
+- Angular CLI & GitHub Pages for deployment
+
+---
+
+## 🛠️ Local Development
 
 ```bash
+# Clone the repository
+git clone https://github.com/eshxl/quiztopia.git
+cd quiztopia
+
+# Install dependencies
+npm install
+
+# Run development server
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
