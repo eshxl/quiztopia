@@ -11,7 +11,7 @@
 
 | Home Page | Quiz Page | Result Page |
 |----------|-----------|-------------|
-| ![Home](https://github.com/eshxl/quiztopia/assets/preview-home.png) | ![Quiz](https://github.com/eshxl/quiztopia/assets/preview-quiz.png) | ![Result](https://github.com/eshxl/quiztopia/assets/preview-result.png) |
+| ![Home](https://github.com/user-attachments/assets/b3e24866-626c-4a31-9192-25dfc9c27390) | ![Quiz](https://github.com/user-attachments/assets/b331341e-9ef2-447f-a4ff-aeb3bf731382) | ![Result](https://github.com/user-attachments/assets/133c5e9b-4daf-469d-9149-66e380a54a03) |
 
 ---
 
